@@ -291,7 +291,7 @@ body:not(.single-post) #comments {
         color: #5cd3bd; }
 
 .site-footer {
-  background-image: url("https://raw.githubusercontent.com/cameronjonesweb/wcbne17/master/src/img/brisbane-city.png");
+  background-image: url("https://raw.githubusercontent.com/wpaustralia/WCBNE18/master/src/img/brisbane-city.png");
   background-position: bottom center;
   background-repeat: no-repeat;
   padding-bottom: 0 !important; }
@@ -543,7 +543,7 @@ body.home #after-header-widgets {
   text-align: center;
   width: 100%; }
   body.home #after-header-widgets:before {
-    background-image: url(https://2017.brisbane.wordcamp.org/files/2017/03/Story-Bridge-Ken-Ware-Photos-WordCamp-Brisbane-2017.jpg);
+    background-image: url("https://i0.wp.com/2018.brisbane.wordcamp.org/files/2018/07/michael-glass-731111-unsplash.jpg");
     background-position: center;
     -webkit-background-size: cover;
             background-size: cover;
@@ -559,7 +559,7 @@ body.home #after-header-widgets {
     position: static;
     width: 100%; }
     body.home #after-header-widgets aside:after {
-      content: "Image courtesy of Ken Ware Photos";
+      content: "Image courtesy of Michael Glass";
       position: absolute;
       bottom: 2rem;
       right: 0;
@@ -636,7 +636,7 @@ body.single-wcb_speaker .entry-header,
 body.search .page-header,
 body.error404 .entry-header {
   padding: 50% 0 4em;
-  background-image: url(https://2017.brisbane.wordcamp.org/files/2017/03/Story-Bridge-Ken-Ware-Photos-WordCamp-Brisbane-2017.jpg);
+  background-image: url("https://i0.wp.com/2018.brisbane.wordcamp.org/files/2018/07/michael-glass-731111-unsplash.jpg");
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center;
@@ -674,7 +674,7 @@ body.error404 .entry-header {
 body.blog #before-content-widgets,
 body.single:not(.single-post):not(.single-wcb_speaker) #before-content-widgets {
   padding: 50% 0 4em;
-  background-image: url(https://2017.brisbane.wordcamp.org/files/2017/03/Story-Bridge-Ken-Ware-Photos-WordCamp-Brisbane-2017.jpg);
+  background-image: url("https://i0.wp.com/2018.brisbane.wordcamp.org/files/2018/07/michael-glass-731111-unsplash.jpg");
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center;
@@ -818,7 +818,7 @@ body.single-wcb_sponsor #before-content-widgets:after {
     #masthead .site-title a {
       display: none; }
     #masthead .site-title a {
-      background-image: url("https://raw.githubusercontent.com/cameronjonesweb/wcbne17/master/src/img/masthead-logo.png");
+      background-image: url("https://raw.githubusercontent.com/wpaustralia/WCBNE18/master/src/img/masthead-logo.png");
       background-position: left center;
       -webkit-background-size: contain;
               background-size: contain;
@@ -945,7 +945,7 @@ body.search article {
     border-color: #CD7F32; }
 
 .sprite {
-  background-image: url("https://raw.githubusercontent.com/cameronjonesweb/wcbne17/master/src/img/sprite.png");
+  background-image: url("https://raw.githubusercontent.com/wpaustralia/WCBNE18/master/src/img/sprite.png");
   background-repeat: no-repeat;
   display: inline-block;
   height: 100px;
