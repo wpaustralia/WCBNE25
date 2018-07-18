@@ -1,4 +1,6 @@
 module.exports = function(grunt){
+	const sass = require('node-sass');
+
 	grunt.initConfig({
 
 		pkg: grunt.file.readJSON('package.json'),
@@ -12,8 +14,9 @@ module.exports = function(grunt){
 
 		sass: {
 			options: {
-	            sourceMap: true
-	        },
+				sourceMap: true,
+				implementation: sass
+			},
 			dist: {
 				files: {
 					'dist/style.css': 'styles.scss'
