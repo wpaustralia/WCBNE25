@@ -31,24 +31,24 @@ body.home #after-header-widgets {
 		position: static;
 		width: 100%;
 		
-    	&:after {
+	&:after {
 
-    		content: "Image courtesy of Ken Ware Photos";
-    		position: absolute;
-    		bottom: $gutter_y;
-    		right: 0;
-    		padding: $gutter_y $gutter_x;
-    		font-size: 1rem;
+		content: "Image courtesy of Michael Glass";
+		position: absolute;
+		bottom: $gutter_y;
+		right: 0;
+		padding: $gutter_y $gutter_x;
+		font-size: 1rem;
 
-    	}
+	}
 
 
-    	.wrap {
+	.wrap {
 
 			position: relative;
 			z-index: 2;
 
-    	}
+	}
 		
 	}
 	
