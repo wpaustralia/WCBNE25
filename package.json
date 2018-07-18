@@ -1,17 +1,17 @@
 {
-  "name": "wcben17",
+  "name": "wcbne18",
   "version": "1.0.0",
   "description": "",
-  "repository": "https://github.com/cameronjonesweb/wcbne17",
+  "repository": "https://github.com/wpaustralia/WCBNE18",
   "devDependencies": {
-    "autoprefixer": "^6.4.1",
-    "grunt": "^0.4.5",
+    "autoprefixer": "^9.0.0",
+    "grunt": "^1.0.3",
     "grunt-australian-stylesheets": "0.0.2",
     "grunt-contrib-concat": "^1.0.0",
-    "grunt-contrib-nodeunit": "^0.4.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-postcss": "^0.8.0",
-    "grunt-sass": "^1.2.0",
-    "node-sass": "^3.4.2"
+    "grunt-contrib-nodeunit": "^2.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-postcss": "^0.9.0",
+    "grunt-sass": "^3.0.1",
+    "node-sass": "^4.9.2"
   }
 }
