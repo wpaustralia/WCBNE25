@@ -537,14 +537,14 @@ body.home #after-header-widgets {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 100vh;
+  min-height: 92vh;
   padding-bottom: 4rem;
-  padding-top: 4rem;
+  padding-top: 24rem;
   text-align: center;
   width: 100%; }
   body.home #after-header-widgets:before {
     background-image: url("https://i0.wp.com/2018.brisbane.wordcamp.org/files/2018/07/michael-glass-731111-unsplash.jpg");
-    background-position: center;
+    background-position: center -30px;
     -webkit-background-size: cover;
             background-size: cover;
     content: "";
