@@ -1,5 +1,5 @@
 .button {
-	
+
 	padding: $gutter_y/2 $gutter_x;
 	background: $green;
 	border: 2px solid $green;
@@ -15,14 +15,14 @@
 		color: $white;
 
 	}
-	
+
 	&:hover,
 	&:active,
 	&:focus {
-	
+
 		color: $green;
-		background: transparent;
-		
+		background: $white;
+
 	}
 
 
@@ -64,5 +64,5 @@
 		}
 
 	}
-	
+
 }

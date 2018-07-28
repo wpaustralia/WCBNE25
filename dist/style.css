@@ -245,7 +245,7 @@ body:not(.single-post) #comments {
     color: #fff; }
   .button:hover, #subscribe-submit input:hover[type^="submit"], input:hover[type=submit], .button:active, #subscribe-submit input:active[type^="submit"], input:active[type=submit], .button:focus, #subscribe-submit input:focus[type^="submit"], input:focus[type=submit] {
     color: #9387f8;
-    background: transparent; }
+    background: #fff; }
   .button--ghost {
     background: transparent; }
     .button--ghost:hover, .button--ghost:active, .button--ghost:focus {
