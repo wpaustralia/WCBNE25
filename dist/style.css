@@ -566,7 +566,8 @@ body.home #after-header-widgets {
       padding: 2rem 3rem;
       font-size: 1rem; }
     body.home #after-header-widgets aside .wrap, body.home #after-header-widgets aside .comment-respond, body.home #after-header-widgets aside .comments-title,
-    body.home #after-header-widgets aside .commentlist, body.home #after-header-widgets aside [id^="footer-widgets"], body.home #after-header-widgets aside body.page:not(.home) .entry-header > *, body.page:not(.home) body.home #after-header-widgets aside .entry-header > *,
+    body.home #after-header-widgets aside .commentlist,
+    body.home #after-header-widgets aside .akismet_comment_form_privacy_notice, body.home #after-header-widgets aside [id^="footer-widgets"], body.home #after-header-widgets aside body.page:not(.home) .entry-header > *, body.page:not(.home) body.home #after-header-widgets aside .entry-header > *,
     body.home #after-header-widgets aside body.archive .page-header > *, body.archive body.home #after-header-widgets aside .page-header > *,
     body.home #after-header-widgets aside body.single-post .entry-header > *, body.single-post body.home #after-header-widgets aside .entry-header > *,
     body.home #after-header-widgets aside body.single-wcb_speaker .entry-header > *, body.single-wcb_speaker body.home #after-header-widgets aside .entry-header > *,
@@ -1168,7 +1169,8 @@ body.admin-bar #tix {
       vertical-align: bottom; }
 
 .wrap, .comment-respond, .comments-title,
-.commentlist, [id^="footer-widgets"], body.page:not(.home) .entry-header > *,
+.commentlist,
+.akismet_comment_form_privacy_notice, [id^="footer-widgets"], body.page:not(.home) .entry-header > *,
 body.archive .page-header > *,
 body.single-post .entry-header > *,
 body.single-wcb_speaker .entry-header > *,

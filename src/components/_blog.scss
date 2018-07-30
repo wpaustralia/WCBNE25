@@ -68,7 +68,8 @@ body.blog article {
 
 .comment-respond,
 .comments-title,
-.commentlist {
+.commentlist,
+.akismet_comment_form_privacy_notice {
 
 	@extend .wrap;
 
