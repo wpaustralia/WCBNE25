@@ -100,7 +100,7 @@ h6, [id^="footer-widget-2"] .widget-title {
     padding-bottom: 4em;
     padding-top: 4em; }
   .band--primary {
-    background-color: #9387f8;
+    background-color: #7c54bf;
     color: #fff; }
     .band--primary a:not(.button):not(input[type=submit]),
     .band--primary a:not(.button):not(input[type=submit]):visited {
@@ -122,7 +122,7 @@ h6, [id^="footer-widget-2"] .widget-title {
     .band--primary-angled {
       position: relative; }
       .band--primary-angled:before {
-        background-color: #9387f8;
+        background-color: #7c54bf;
         content: "";
         display: block;
         height: 7em;
@@ -192,7 +192,7 @@ body:not(.single-post) #comments {
   .box:visited {
     color: inherit; }
   .box:hover, .box:active {
-    color: #9387f8; }
+    color: #7c54bf; }
     .box:hover .box__link:after, .box:hover .widget_recent_entries a:after, .widget_recent_entries .box:hover a:after, .box:active .box__link:after, .box:active .widget_recent_entries a:after, .widget_recent_entries .box:active a:after {
       width: 5em; }
     .box:hover .sprite--chat, .box:active .sprite--chat {
@@ -218,10 +218,10 @@ body:not(.single-post) #comments {
     position: relative;
     z-index: 5; }
   .box__link, .widget_recent_entries a:after {
-    color: #9387f8;
+    color: #7c54bf;
     display: inline-block; }
     .box__link:after, .widget_recent_entries a:after {
-      background-color: #9387f8;
+      background-color: #7c54bf;
       content: "";
       display: block;
       height: 2px;
@@ -233,8 +233,8 @@ body:not(.single-post) #comments {
 
 .button, #subscribe-submit input[type^="submit"], input[type=submit] {
   padding: 1rem 3rem;
-  background: #9387f8;
-  border: 2px solid #9387f8;
+  background: #7c54bf;
+  border: 2px solid #7c54bf;
   display: inline-block;
   text-transform: uppercase;
   color: #fff;
@@ -244,19 +244,19 @@ body:not(.single-post) #comments {
   .button:visited, #subscribe-submit input:visited[type^="submit"], input:visited[type=submit] {
     color: #fff; }
   .button:hover, #subscribe-submit input:hover[type^="submit"], input:hover[type=submit], .button:active, #subscribe-submit input:active[type^="submit"], input:active[type=submit], .button:focus, #subscribe-submit input:focus[type^="submit"], input:focus[type=submit] {
-    color: #9387f8;
+    color: #7c54bf;
     background: #fff; }
   .button--ghost {
     background: transparent; }
     .button--ghost:hover, .button--ghost:active, .button--ghost:focus {
-      background-color: #9387f8;
+      background-color: #7c54bf;
       color: #fff; }
   .button--white {
     border-color: #fff;
     color: #fff;
     background-color: transparent; }
     .button--white:hover, .button--white:active, .button--white:focus {
-      color: #9387f8 !important;
+      color: #7c54bf !important;
       background-color: #fff; }
     .button--white:visited {
       color: #fff; }
@@ -288,7 +288,7 @@ body:not(.single-post) #comments {
       text-decoration: none;
       text-transform: uppercase; }
       .site-footer .site-info a:hover, .site-footer .site-info a:active, .site-footer .site-info afocus {
-        color: #9387f8; }
+        color: #7c54bf; }
 
 .site-footer {
   background-image: url("https://raw.githubusercontent.com/wpaustralia/WCBNE18/master/src/img/brisbane-city.png");
@@ -366,7 +366,7 @@ body:not(.single-post) #comments {
 [id^="footer-widget-2"] a {
   text-decoration: none; }
   [id^="footer-widget-2"] a:hover {
-    color: #9387f8 !important; }
+    color: #7c54bf !important; }
 
 @media (min-width: 992px) {
   #footer-widget-3 .sprite, #footer-widget-4 .sprite {
@@ -449,7 +449,7 @@ body .contact-form input[type=radio] {
   input[type=checkbox]:checked:before, input[type=radio]:checked:before,
   body .contact-form input[type=checkbox]:checked:before,
   body .contact-form input[type=radio]:checked:before {
-    color: #9387f8;
+    color: #7c54bf;
     content: "\f147";
     font-family: Dashicons;
     font-size: 30px;
@@ -762,7 +762,7 @@ body.single-wcb_sponsor #before-content-widgets:after {
       #masthead .site-navigation {
         width: 70%; } }
     #masthead .site-navigation ul {
-      background-color: #9387f8;
+      background-color: #7c54bf;
       margin-left: 0;
       margin-top: 1rem;
       -webkit-box-shadow: 0 3px 60px #000;
@@ -803,7 +803,7 @@ body.single-wcb_sponsor #before-content-widgets:after {
             width: 0; } }
     @media (min-width: 617px) {
       #masthead li.current-menu-item a:after, #masthead li:hover a:after, #masthead li:focus a:after, #masthead li:active a:after {
-        background-color: #9387f8;
+        background-color: #7c54bf;
         width: -webkit-calc( 100% - 3rem);
         width: calc( 100% - 3rem); } }
     #masthead li a {
@@ -834,7 +834,7 @@ body.single-wcb_sponsor #before-content-widgets:after {
                   background-size: 171px 36px;
           width: 171px; } }
   #masthead .menu-toggle {
-    color: #9387f8;
+    color: #7c54bf;
     font-size: 1em;
     padding-right: 2.5rem;
     right: 0; }
@@ -846,8 +846,8 @@ body.single-wcb_sponsor #before-content-widgets:after {
       top: 50%;
       margin-top: -0.66rem;
       right: 0;
-      -webkit-box-shadow: 0 0 0 1px #9387f8, 0 7px 0 1px #9387f8, 0 14px 0 1px #9387f8;
-              box-shadow: 0 0 0 1px #9387f8, 0 7px 0 1px #9387f8, 0 14px 0 1px #9387f8;
+      -webkit-box-shadow: 0 0 0 1px #7c54bf, 0 7px 0 1px #7c54bf, 0 14px 0 1px #7c54bf;
+              box-shadow: 0 0 0 1px #7c54bf, 0 7px 0 1px #7c54bf, 0 14px 0 1px #7c54bf;
       width: 1em; }
     #masthead .menu-toggle.toggled-on {
       margin-top: 4px; }
@@ -908,7 +908,7 @@ body.search article {
     border-bottom: none;
     border-left: none;
     border-right: none;
-    color: #9387f8;
+    color: #7c54bf;
     display: inline-block;
     font-weight: 600;
     line-height: 0;
@@ -1140,7 +1140,7 @@ body.admin-bar #tix {
     font-weight: 900;
     text-decoration: none; }
     .widget_recent_entries a:hover {
-      color: #9387f8; }
+      color: #7c54bf; }
     .widget_recent_entries a:before {
       content: "News";
       display: inline-block;
