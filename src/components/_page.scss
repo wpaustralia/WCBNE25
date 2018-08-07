@@ -3,6 +3,7 @@
 	font-size: 1.5em;
 	line-height: 1.6;
 	max-width: 38em;
+	color: $green;
 
 }
 
@@ -21,6 +22,22 @@
 	ol {
 
 		max-width: 55em;
+
+	}
+
+
+	ul + h3,
+	p + h3 {
+
+		margin-top: 1.5em;
+
+	}
+
+
+	ul + h2,
+	p + h2 {
+
+		margin-top: 1em;
 
 	}
 

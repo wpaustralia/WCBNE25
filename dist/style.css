@@ -1216,12 +1216,30 @@ body.error404 .entry-content {
 .lede, .entry-content > p:first-of-type {
   font-size: 1.5em;
   line-height: 1.6;
-  max-width: 38em; }
+  max-width: 38em;
+  color: #7c54bf; }
 
 .entry-content p,
 .entry-content ul,
 .entry-content ol {
   max-width: 55em; }
+
+.entry-content ul + h3, .entry-content ul + .comments-title, .entry-content .wcorg-organizers .wcorg-organizer ul + h2, .wcorg-organizers .wcorg-organizer .entry-content ul + h2, .entry-content .wcorg-organizers .wcorg-organizer .widget-area.front-page .widget ul + .widget-title, .wcorg-organizers .wcorg-organizer .widget-area.front-page .widget .entry-content ul + .widget-title, .entry-content .widget-area.front-page .widget .wcorg-organizers .wcorg-organizer ul + .widget-title, .widget-area.front-page .widget .wcorg-organizers .wcorg-organizer .entry-content ul + .widget-title,
+.entry-content p + h3,
+.entry-content p + .comments-title,
+.entry-content .wcorg-organizers .wcorg-organizer p + h2,
+.wcorg-organizers .wcorg-organizer .entry-content p + h2,
+.entry-content .wcorg-organizers .wcorg-organizer .widget-area.front-page .widget p + .widget-title,
+.wcorg-organizers .wcorg-organizer .widget-area.front-page .widget .entry-content p + .widget-title,
+.entry-content .widget-area.front-page .widget .wcorg-organizers .wcorg-organizer p + .widget-title,
+.widget-area.front-page .widget .wcorg-organizers .wcorg-organizer .entry-content p + .widget-title {
+  margin-top: 1.5em; }
+
+.entry-content ul + h2, .entry-content .widget-area.front-page .widget ul + .widget-title, .widget-area.front-page .widget .entry-content ul + .widget-title,
+.entry-content p + h2,
+.entry-content .widget-area.front-page .widget p + .widget-title,
+.widget-area.front-page .widget .entry-content p + .widget-title {
+  margin-top: 1em; }
 
 .avatar {
   -webkit-border-radius: 50%;
