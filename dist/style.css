@@ -397,10 +397,12 @@ input, #s {
   padding: .75em 1em; }
 
 body .contact-form input[type=text],
+body .contact-form input[type=url],
 body .contact-form input[type=email],
 body .contact-form textarea,
 body .contact-form select,
 .tix_tickets_table input[type=text],
+.tix_tickets_table input[type=url],
 .tix_tickets_table input[type=email],
 .tix_tickets_table textarea,
 .tix_tickets_table select {
@@ -410,10 +412,12 @@ body .contact-form select,
           border-radius: 0; }
   @media (min-width: 617px) {
     body .contact-form input[type=text],
+    body .contact-form input[type=url],
     body .contact-form input[type=email],
     body .contact-form textarea,
     body .contact-form select,
     .tix_tickets_table input[type=text],
+    .tix_tickets_table input[type=url],
     .tix_tickets_table input[type=email],
     .tix_tickets_table textarea,
     .tix_tickets_table select {

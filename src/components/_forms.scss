@@ -1,5 +1,5 @@
 input, #s {
-	
+
 	padding: .75em 1em;
 
 }
@@ -8,10 +8,11 @@ body .contact-form,
 .tix_tickets_table {
 
 	input[type=text],
+	input[type=url],
 	input[type=email],
 	textarea,
 	select {
-		
+
 		padding: .75em 1em;
 		width: 100%;
 		border-radius: 0;
@@ -19,7 +20,7 @@ body .contact-form,
 		@include mq( $bp_lap ) {
 
 			width: 80%;
-		
+
 		}
 
 	}
@@ -41,7 +42,7 @@ body .contact-form,
 }
 
 input[type=submit] {
-	
+
 	@extend .button;
 
 	border-radius: 0;
@@ -61,7 +62,7 @@ body .contact-form input[type=checkbox] {
     padding: 6px;
     position: relative;
     vertical-align: baseline;
-	
+
 	&:checked:before {
 
 		color: $green;
@@ -78,7 +79,7 @@ body .contact-form input[type=checkbox] {
 
 input[type=radio],
 body .contact-form input[type=radio] {
-	
+
 	@extend input[type=checkbox];
 
 	border-radius: 50%;
@@ -86,7 +87,7 @@ body .contact-form input[type=radio] {
 }
 
 body label.grunion-checkbox-multiple-label {
-	
+
 	display: inline-block;
 
 }
