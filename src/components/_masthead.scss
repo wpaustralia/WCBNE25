@@ -1,19 +1,19 @@
 #masthead {
-	
+
 	padding: $gutter_y $gutter_x;
 	z-index: 90210;
 	width: 100%;
 	position: absolute;
-	
+
 	a {
-		
+
 		color: #fff;
 		text-decoration: none;
-		
+
 	}
-	
+
 	hgroup {
-	
+
 		display: inline-block;
 		margin-right: -4px;
 		position: absolute;
@@ -26,11 +26,11 @@
 			width: 30%;
 
 		}
-		
+
 	}
 
 	.site-navigation {
-		
+
 		display: inline-block;
 		float: none;
 		font-weight: 600;
@@ -62,11 +62,11 @@
 			}
 
 		}
-	
+
 	}
 
 	li {
-		
+
 		float: none;
 		list-style: none;
 
@@ -104,7 +104,7 @@
 		&.current-menu-item, &:hover, &:focus, &:active {
 
 			@include mq( $bp_lap ) {
-			
+
 				a {
 
 					&:after {
@@ -117,7 +117,7 @@
 				}
 
 			}
-			
+
 		}
 
 		a {
@@ -133,7 +133,7 @@
 			}
 
 		}
-	
+
 	}
 
 	.site-title {
@@ -197,5 +197,5 @@
 	    }
 
 	}
-	
+
 }

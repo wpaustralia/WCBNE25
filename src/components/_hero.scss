@@ -1,5 +1,5 @@
 body.home #after-header-widgets {
-	
+
 	align-items: center;
 	color: $white;
 	display: flex;
@@ -25,12 +25,12 @@ body.home #after-header-widgets {
 		z-index: -1;
 
 	}
-	
+
 	aside {
-	
+
 		position: static;
 		width: 100%;
-		
+
 	&:after {
 
 		content: "Image courtesy of Michael Glass";
@@ -49,11 +49,11 @@ body.home #after-header-widgets {
 			z-index: 2;
 
 	}
-		
+
 	}
-	
+
 	h1 {
-		
+
 		font-size: 7rem;
 		font-weight: 300;
 		line-height: 1;
@@ -75,26 +75,26 @@ body.home #after-header-widgets {
 			font-size: 235px;
 
 		}
-	
+
 	}
 
 	h2 {
-	
+
 		font-size: 30px;
 		font-weight: 600;
 		margin-bottom: 1em;
-		
+
 	}
 
 	.button {
 
 		margin: 5px;
-		
+
 	}
 
 	// Tint/overlay
 	&:after {
-	
+
 	    content: "";
 	    position: absolute;
 	    top: 0;
@@ -103,9 +103,9 @@ body.home #after-header-widgets {
 	    height: 100%;
 	    background: rgba(0,0,50,0.3);
 	    z-index: 0;
-	
+
 	}
-	
+
 }
 
 body.page:not(.home) .entry-header,
@@ -132,9 +132,9 @@ body.error404 .entry-header {
 		padding-top: 20%;
 
 	}
-	
+
 	&:before {
-	
+
 	    content: "";
 	    position: absolute;
 	    top: 0;
@@ -142,7 +142,7 @@ body.error404 .entry-header {
 	    width: 100%;
 	    height: 100%;
 	    background: rgba(0,0,50,0.3);
-	
+
 	}
 
 	> * {
@@ -156,12 +156,12 @@ body.error404 .entry-header {
 		@extend h1;
 
 	}
-	
+
 }
 
 
 body.archive .page-title {
-	
+
 	@extend h1;
 
 }
@@ -171,7 +171,7 @@ body.blog,
 body.single:not(.single-post):not(.single-wcb_speaker) {
 
 	#before-content-widgets {
-		
+
 		padding: 50% 0 4em;
 		background-image: $hero;
 		background-size: cover;
@@ -189,21 +189,21 @@ body.single:not(.single-post):not(.single-wcb_speaker) {
 			padding-top: 20%;
 
 		}
-		
+
 		&:after {
 
 			@extend h1;
 
 			@extend .wrap;
-			
+
 			display: block;
 			position: relative;
 			z-index: 2;
-			
+
 		}
 
 		&:before {
-	
+
 			content: "";
 			position: absolute;
 			top: 0;
@@ -211,16 +211,16 @@ body.single:not(.single-post):not(.single-wcb_speaker) {
 			width: 100%;
 			height: 100%;
 			background: rgba(0,0,50,0.3);
-		
+
 		}
-		
+
 	}
-	
+
 }
 
 
 body.blog #before-content-widgets:after {
-	
+
 	content: "Latest News";
 
 }

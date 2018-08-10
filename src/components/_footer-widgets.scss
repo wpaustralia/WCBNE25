@@ -64,7 +64,7 @@
 	margin-right: -5px;
 	padding-left: 0 !important;
 	vertical-align: top;
-	
+
 	@include mq( $bp_lap ) {
 
 		width: 80% !important;
@@ -86,7 +86,7 @@
 	padding-left: 0 !important;
 	vertical-align: top;
 	margin-bottom: 1em;
-	
+
 	@include mq( $bp_lap ) {
 
 		width: 20% !important;
@@ -216,5 +216,5 @@
 		}
 
 	}
-	
+
 }
