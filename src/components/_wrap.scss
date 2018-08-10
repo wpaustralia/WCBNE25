@@ -11,7 +11,7 @@
 body.single-post article > .entry-content,
 body.single-wcb_speaker article > .entry-content,
 body.archive article,
-body.page article > .entry-content, 
+body.page article > .entry-content,
 body.single:not(.single-post):not(.single-wcb_speaker) #primary,
 body.error404 .entry-content {
 
@@ -26,7 +26,7 @@ body.error404 .entry-content {
 body.single footer.entry-meta,
 #secondary,
 body.search article > * {
-	
+
 	@extend .wrap;
 
 }

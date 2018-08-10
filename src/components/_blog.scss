@@ -1,5 +1,5 @@
 body.blog {
-	
+
 	article:nth-child(even) {
 
 		background-color: $grey;
@@ -9,32 +9,32 @@ body.blog {
 }
 
 .comments-title {
-	
+
 	@extend h3;
 
 }
 
 .comments-link {
-	
+
 	display: block;
 	margin-bottom: 1.5em;
 
 }
 
 #reply-title {
-	
+
 	@extend h4;
 
 }
 
 img.avatar {
-	
+
 	vertical-align: middle;
 
 }
 
 body.blog article {
-	
+
 	padding-bottom: $gutter_y;
 	padding-top: $gutter_y;
 
@@ -78,5 +78,5 @@ body.blog article {
 .commentlist {
 
 	list-style: none;
-	
+
 }
