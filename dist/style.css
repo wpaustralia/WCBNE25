@@ -1172,6 +1172,9 @@ body.admin-bar #tix {
       margin-right: 0.5em;
       vertical-align: bottom; }
 
+.widget_eu_cookie_law_widget * {
+  position: initial; }
+
 .wrap, .comment-respond, .comments-title,
 .commentlist,
 .akismet_comment_form_privacy_notice, [id^="footer-widgets"], body.page:not(.home) .entry-header > *,
