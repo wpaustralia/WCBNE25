@@ -541,14 +541,14 @@ body.home #after-header-widgets {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  min-height: 92vh;
-  padding-bottom: 4rem;
+  min-height: 50vh;
+  padding-bottom: 10rem;
   padding-top: 24rem;
   text-align: center;
   width: 100%; }
   body.home #after-header-widgets:before {
-    background-image: url("https://i0.wp.com/2018.brisbane.wordcamp.org/files/2018/07/michael-glass-731111-unsplash.jpg");
-    background-position: center -30px;
+    background-image: url("https://i0.wp.com/2019.brisbane.wordcamp.org/files/2019/03/michael-415383-unsplash.jpg");
+    background-position: center -120px;
     -webkit-background-size: cover;
             background-size: cover;
     content: "";
@@ -563,7 +563,7 @@ body.home #after-header-widgets {
     position: static;
     width: 100%; }
     body.home #after-header-widgets aside:after {
-      content: "Image courtesy of Michael Glass";
+      content: "Image courtesy of @michael75 on Unsplash";
       position: absolute;
       bottom: 2rem;
       right: 0;
@@ -641,7 +641,7 @@ body.single-wcb_speaker .entry-header,
 body.search .page-header,
 body.error404 .entry-header {
   padding: 50% 0 4em;
-  background-image: url("https://i0.wp.com/2018.brisbane.wordcamp.org/files/2018/07/michael-glass-731111-unsplash.jpg");
+  background-image: url("https://i0.wp.com/2019.brisbane.wordcamp.org/files/2019/03/michael-415383-unsplash.jpg");
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center;
@@ -679,7 +679,7 @@ body.error404 .entry-header {
 body.blog #before-content-widgets,
 body.single:not(.single-post):not(.single-wcb_speaker) #before-content-widgets {
   padding: 50% 0 4em;
-  background-image: url("https://i0.wp.com/2018.brisbane.wordcamp.org/files/2018/07/michael-glass-731111-unsplash.jpg");
+  background-image: url("https://i0.wp.com/2019.brisbane.wordcamp.org/files/2019/03/michael-415383-unsplash.jpg");
   -webkit-background-size: cover;
           background-size: cover;
   background-position: center;
