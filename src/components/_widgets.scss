@@ -191,7 +191,7 @@
 
 }
 
-@include mq( $bp_lap ) {
+@include mqmax( $bp_lap ) {
 	.widget_recent_entries li:first-of-type {
 		display: inherit;
 	}
