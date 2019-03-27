@@ -35,6 +35,25 @@
 
 .widget_rss {
 	padding-top: 4em;
+	li {
+		width: 100% !important;
+
+		a {
+			float: left;
+		}
+
+		.rss-date {
+			clear: left;
+			float: left;
+		}
+
+		.rssSummary {
+			padding-left: 1em;
+			overflow: hidden;
+			height: 3.3em;
+			padding-top: 0.5em;
+		}
+	}
 }
 
 .widget_recent_entries, .widget_rss {
