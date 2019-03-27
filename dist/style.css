@@ -1208,6 +1208,12 @@ body.admin-bar #tix {
     margin-right: 0.5em;
     vertical-align: bottom; }
 
+@media (min-width: 617px) {
+  .widget_recent_entries li:first-of-type {
+    display: inherit; }
+  .widget_rss {
+    display: none; } }
+
 .widget_eu_cookie_law_widget * {
   position: initial; }
 

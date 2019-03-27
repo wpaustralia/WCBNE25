@@ -191,6 +191,16 @@
 
 }
 
+@include mq( $bp_lap ) {
+	.widget_recent_entries li:first-of-type {
+		display: inherit;
+	}
+
+	.widget_rss {
+		display: none;
+	}
+}
+
 .widget_eu_cookie_law_widget {
 	* {
 		position: initial;
