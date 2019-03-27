@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "repository": "https://github.com/dd32/WCBNE19",
+  "scripts" : {
+    "grunt": "./node_modules/.bin/grunt"
+  },
   "devDependencies": {
     "autoprefixer": "^9.0.0",
     "grunt": "^1.0.3",
