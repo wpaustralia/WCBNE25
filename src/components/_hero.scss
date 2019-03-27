@@ -79,7 +79,7 @@ body.home #after-header-widgets {
 
 		}
 
-		@include mq( $bp_desk ) {
+		@include mq( $bp_wide ) {
 
 			font-size: 235px;
 
