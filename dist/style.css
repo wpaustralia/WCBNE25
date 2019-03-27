@@ -1124,15 +1124,16 @@ body.admin-bar #tix {
     display: none; }
 
 .widget_rss {
-  padding-top: 4em; }
-  .widget_rss li {
+  padding-top: 4em;
+  margin-bottom: -2rem; }
+  .widget_rss s li {
     width: 100% !important; }
-    .widget_rss li a {
+    .widget_rss s li a {
       float: left; }
-    .widget_rss li .rss-date {
+    .widget_rss s li .rss-date {
       clear: left;
       float: left; }
-    .widget_rss li .rssSummary {
+    .widget_rss s li .rssSummary {
       padding-left: 1em;
       overflow: hidden;
       height: 3.3em;
