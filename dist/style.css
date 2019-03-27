@@ -82,10 +82,10 @@ h3, .comments-title, .wcorg-organizers .wcorg-organizer h2, .wcorg-organizers .w
     .site-footer .widget-title {
       font-size: 2.1em; } }
 
-h4, #reply-title, .widget_recent_entries a, .widget_rss a {
+h4, #reply-title, .widget_recent_entries a:not(.rsswidget), .widget_rss a:not(.rsswidget) {
   font-size: 1em; }
   @media (min-width: 617px) {
-    h4, #reply-title, .widget_recent_entries a, .widget_rss a {
+    h4, #reply-title, .widget_recent_entries a:not(.rsswidget), .widget_rss a:not(.rsswidget) {
       font-size: 1.5em; } }
 
 h6, [id^="footer-widget-2"] .widget-title {
@@ -193,7 +193,7 @@ body:not(.single-post) #comments {
     color: inherit; }
   .box:hover, .box:active {
     color: #7c54bf; }
-    .box:hover .box__link:after, .box:hover .widget_recent_entries a:after, .widget_recent_entries .box:hover a:after, .box:hover .widget_rss a:after, .widget_rss .box:hover a:after, .box:active .box__link:after, .box:active .widget_recent_entries a:after, .widget_recent_entries .box:active a:after, .box:active .widget_rss a:after, .widget_rss .box:active a:after {
+    .box:hover .box__link:after, .box:hover .widget_recent_entries a:not(.rsswidget):after, .widget_recent_entries .box:hover a:not(.rsswidget):after, .box:hover .widget_rss a:not(.rsswidget):after, .widget_rss .box:hover a:not(.rsswidget):after, .box:active .box__link:after, .box:active .widget_recent_entries a:not(.rsswidget):after, .widget_recent_entries .box:active a:not(.rsswidget):after, .box:active .widget_rss a:not(.rsswidget):after, .widget_rss .box:active a:not(.rsswidget):after {
       width: 5em; }
     .box:hover .sprite--chat, .box:active .sprite--chat {
       background-position: -100px 0px; }
@@ -217,10 +217,10 @@ body:not(.single-post) #comments {
   .box__body {
     position: relative;
     z-index: 5; }
-  .box__link, .widget_recent_entries a:after, .widget_rss a:after {
+  .box__link, .widget_recent_entries a:not(.rsswidget):after, .widget_rss a:not(.rsswidget):after {
     color: #7c54bf;
     display: inline-block; }
-    .box__link:after, .widget_recent_entries a:after, .widget_rss a:after {
+    .box__link:after, .widget_recent_entries a:not(.rsswidget):after, .widget_rss a:not(.rsswidget):after {
       background-color: #7c54bf;
       content: "";
       display: block;
@@ -520,10 +520,10 @@ h3, .comments-title, .wcorg-organizers .wcorg-organizer h2, .wcorg-organizers .w
     .site-footer .widget-title {
       font-size: 2.1em; } }
 
-h4, #reply-title, .widget_recent_entries a, .widget_rss a {
+h4, #reply-title, .widget_recent_entries a:not(.rsswidget), .widget_rss a:not(.rsswidget) {
   font-size: 1em; }
   @media (min-width: 617px) {
-    h4, #reply-title, .widget_recent_entries a, .widget_rss a {
+    h4, #reply-title, .widget_recent_entries a:not(.rsswidget), .widget_rss a:not(.rsswidget) {
       font-size: 1.5em; } }
 
 h6, [id^="footer-widget-2"] .widget-title {
@@ -1114,6 +1114,8 @@ body.admin-bar #tix {
   padding-top: 4em; }
   .widget_recent_entries .widget-title, .widget_rss .widget-title {
     padding-top: 0; }
+  .widget_recent_entries img.rss-widget-icon, .widget_rss img.rss-widget-icon {
+    display: none; }
   .widget_recent_entries ul, .widget_rss ul {
     list-style-type: none;
     margin: 0; }
@@ -1135,7 +1137,7 @@ body.admin-bar #tix {
         padding-right: 2.5em; }
         .widget_recent_entries li:nth-of-type(2n), .widget_rss li:nth-of-type(2n) {
           border-left: 1px solid #f4f4f4; } }
-  .widget_recent_entries a, .widget_rss a {
+  .widget_recent_entries a:not(.rsswidget), .widget_rss a:not(.rsswidget) {
     display: block;
     max-width: 16em;
     padding: 2em 0 0 0;
@@ -1143,9 +1145,9 @@ body.admin-bar #tix {
     line-height: 1;
     font-weight: 900;
     text-decoration: none; }
-    .widget_recent_entries a:hover, .widget_rss a:hover {
+    .widget_recent_entries a:not(.rsswidget):hover, .widget_rss a:not(.rsswidget):hover {
       color: #7c54bf; }
-    .widget_recent_entries a:before, .widget_rss a:before {
+    .widget_recent_entries a:not(.rsswidget):before, .widget_rss a:not(.rsswidget):before {
       content: "News";
       display: inline-block;
       position: absolute;
@@ -1155,13 +1157,13 @@ body.admin-bar #tix {
       font-size: 6.5em;
       text-transform: uppercase; }
       @media (min-width: 617px) {
-        .widget_recent_entries a:before, .widget_rss a:before {
+        .widget_recent_entries a:not(.rsswidget):before, .widget_rss a:not(.rsswidget):before {
           font-size: 4.5em;
           left: 2.5rem; } }
-    .widget_recent_entries a:after, .widget_rss a:after {
+    .widget_recent_entries a:not(.rsswidget):after, .widget_rss a:not(.rsswidget):after {
       content: "";
       margin-bottom: .5em; }
-    .widget_recent_entries a:hover:after, .widget_rss a:hover:after {
+    .widget_recent_entries a:not(.rsswidget):hover:after, .widget_rss a:not(.rsswidget):hover:after {
       width: 5em; }
   .widget_recent_entries .post-date, .widget_rss .post-date {
     display: block; }
