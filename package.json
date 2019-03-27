@@ -1,8 +1,8 @@
 {
-  "name": "wcbne18",
+  "name": "wcbne19",
   "version": "1.0.0",
   "description": "",
-  "repository": "https://github.com/wpaustralia/WCBNE18",
+  "repository": "https://github.com/dd32/WCBNE19",
   "devDependencies": {
     "autoprefixer": "^9.0.0",
     "grunt": "^1.0.3",

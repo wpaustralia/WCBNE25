@@ -1,14 +1,6 @@
-# WordCamp Brisbane 2018
+# WordCamp Brisbane 2019
 
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.svg)](http://gruntjs.com/)
-
-This is the stylesheet for the website for [WordCamp Brisbane 2018](https://2018.brisbane.wordcamp.org/).
-
-## Organisation Team
-
-* [Ricky Blacker](https://profiles.wordpress.org/chunk69)
-* [Dion Hulse](https://profiles.wordpress.org/dd32)
-* [Hannah Malcolm](https://profiles.wordpress.org/hannahmalcolm)
+This is the stylesheet for the website for [WordCamp Brisbane 2019](https://2019.brisbane.wordcamp.org/).
 
 ## Contributing
 
