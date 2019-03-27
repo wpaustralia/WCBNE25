@@ -80,7 +80,7 @@
 
 	}
 
-	a:not(.rsswidget) {
+	ul > li > a {
 
 		@extend h4;
 		display: block;
@@ -135,7 +135,7 @@
 
 	}
 
-	.post-date {
+	.post-date, .rss-date {
 
 		display: block;
 
