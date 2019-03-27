@@ -9,6 +9,12 @@ body.home #after-header-widgets {
 	text-align: center;
 	width: 100%;
 
+	@include mqmax( $bp_lap ) {
+
+		padding-top: $gutter_y * 4;
+
+	}
+
 	// Actual image, pos:fixed to reduce repaint lag
 	&:before {
 
@@ -24,6 +30,9 @@ body.home #after-header-widgets {
 		width: 100%;
 		z-index: -1;
 
+		@include mqmax( $bp_lap ) {
+			background-position: center;
+		}
 	}
 
 	aside {
@@ -31,24 +40,24 @@ body.home #after-header-widgets {
 		position: static;
 		width: 100%;
 
-	&:after {
+		&:after {
 
-		content: $hero_credit;
-		position: absolute;
-		bottom: $gutter_y;
-		right: 0;
-		padding: $gutter_y $gutter_x;
-		font-size: 1rem;
+			content: $hero_credit;
+			position: absolute;
+			bottom: $gutter_y;
+			right: 0;
+			padding: $gutter_y $gutter_x;
+			font-size: 1rem;
 
-	}
+		}
 
 
-	.wrap {
+		.wrap {
 
 			position: relative;
 			z-index: 2;
 
-	}
+		}
 
 	}
 

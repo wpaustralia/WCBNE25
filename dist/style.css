@@ -546,6 +546,9 @@ body.home #after-header-widgets {
   padding-top: 24rem;
   text-align: center;
   width: 100%; }
+  @media (max-width: 617px) {
+    body.home #after-header-widgets {
+      padding-top: 8rem; } }
   body.home #after-header-widgets:before {
     background-image: url("https://i0.wp.com/2019.brisbane.wordcamp.org/files/2019/03/michael-415383-unsplash.jpg");
     background-position: center -120px;
@@ -559,6 +562,9 @@ body.home #after-header-widgets {
     top: 0;
     width: 100%;
     z-index: -1; }
+    @media (max-width: 617px) {
+      body.home #after-header-widgets:before {
+        background-position: center; } }
   body.home #after-header-widgets aside {
     position: static;
     width: 100%; }
