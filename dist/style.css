@@ -1110,69 +1110,88 @@ body.admin-bar #tix {
     padding-left: 0;
     padding-right: 0; }
 
-.widget_recent_entries, .widget_rss {
-  padding-top: 4em; }
-  .widget_recent_entries .widget-title, .widget_rss .widget-title {
-    padding-top: 0; }
-  .widget_recent_entries img.rss-widget-icon, .widget_rss img.rss-widget-icon {
+.widget_recent_entries {
+  /* RSS widget will have the first item. */ }
+  .widget_recent_entries li:first-of-type {
     display: none; }
-  .widget_recent_entries ul, .widget_rss ul {
-    list-style-type: none;
-    margin: 0; }
-  .widget_recent_entries li, .widget_rss li {
+  .widget_recent_entries h1, .widget_recent_entries body.page:not(.home) .entry-header .entry-title, body.page:not(.home) .entry-header .widget_recent_entries .entry-title,
+  .widget_recent_entries body.archive .page-header .entry-title, body.archive .page-header .widget_recent_entries .entry-title,
+  .widget_recent_entries body.single-post .entry-header .entry-title, body.single-post .entry-header .widget_recent_entries .entry-title,
+  .widget_recent_entries body.single-wcb_speaker .entry-header .entry-title, body.single-wcb_speaker .entry-header .widget_recent_entries .entry-title,
+  .widget_recent_entries body.search .page-header .entry-title, body.search .page-header .widget_recent_entries .entry-title,
+  .widget_recent_entries body.error404 .entry-header .entry-title, body.error404 .entry-header .widget_recent_entries .entry-title, .widget_recent_entries body.archive .page-title, body.archive .widget_recent_entries .page-title, .widget_recent_entries body.blog #before-content-widgets:after, body.blog .widget_recent_entries #before-content-widgets:after,
+  .widget_recent_entries body.single:not(.single-post):not(.single-wcb_speaker) #before-content-widgets:after, body.single:not(.single-post):not(.single-wcb_speaker) .widget_recent_entries #before-content-widgets:after {
+    display: none; }
+
+.widget_rss {
+  padding-top: 4em; }
+
+.widget_recent_entries .widget-title, .widget_rss .widget-title {
+  padding-top: 0; }
+
+.widget_recent_entries img.rss-widget-icon, .widget_rss img.rss-widget-icon {
+  display: none; }
+
+.widget_recent_entries ul, .widget_rss ul {
+  list-style-type: none;
+  margin: 0; }
+
+.widget_recent_entries li, .widget_rss li {
+  display: inline-block;
+  margin-bottom: 2rem;
+  overflow: hidden;
+  padding: 3em 1em;
+  vertical-align: top;
+  width: 100%; }
+  @media (max-width: 616px) {
+    .widget_recent_entries li + li, .widget_rss li + li {
+      border-top: 1px solid #f4f4f4; } }
+  @media (min-width: 617px) {
+    .widget_recent_entries li, .widget_rss li {
+      margin-right: -4px;
+      width: 50%;
+      padding-left: 2.5em;
+      padding-right: 2.5em; }
+      .widget_recent_entries li:nth-of-type(2n), .widget_rss li:nth-of-type(2n) {
+        border-left: 1px solid #f4f4f4; } }
+
+.widget_recent_entries ul > li > a, .widget_rss ul > li > a {
+  display: block;
+  max-width: 16em;
+  padding: 2em 0 0 0;
+  position: static;
+  line-height: 1;
+  font-weight: 900;
+  text-decoration: none; }
+  .widget_recent_entries ul > li > a:hover, .widget_rss ul > li > a:hover {
+    color: #7c54bf; }
+  .widget_recent_entries ul > li > a:before, .widget_rss ul > li > a:before {
+    content: "News";
     display: inline-block;
-    margin-bottom: 2rem;
-    overflow: hidden;
-    padding: 3em 1em;
-    vertical-align: top;
-    width: 100%; }
-    @media (max-width: 616px) {
-      .widget_recent_entries li + li, .widget_rss li + li {
-        border-top: 1px solid #f4f4f4; } }
+    position: absolute;
+    top: .25em;
+    left: -1rem;
+    opacity: .1;
+    font-size: 6.5em;
+    text-transform: uppercase; }
     @media (min-width: 617px) {
-      .widget_recent_entries li, .widget_rss li {
-        margin-right: -4px;
-        width: 50%;
-        padding-left: 2.5em;
-        padding-right: 2.5em; }
-        .widget_recent_entries li:nth-of-type(2n), .widget_rss li:nth-of-type(2n) {
-          border-left: 1px solid #f4f4f4; } }
-  .widget_recent_entries ul > li > a, .widget_rss ul > li > a {
-    display: block;
-    max-width: 16em;
-    padding: 2em 0 0 0;
-    position: static;
-    line-height: 1;
-    font-weight: 900;
-    text-decoration: none; }
-    .widget_recent_entries ul > li > a:hover, .widget_rss ul > li > a:hover {
-      color: #7c54bf; }
-    .widget_recent_entries ul > li > a:before, .widget_rss ul > li > a:before {
-      content: "News";
-      display: inline-block;
-      position: absolute;
-      top: .25em;
-      left: -1rem;
-      opacity: .1;
-      font-size: 6.5em;
-      text-transform: uppercase; }
-      @media (min-width: 617px) {
-        .widget_recent_entries ul > li > a:before, .widget_rss ul > li > a:before {
-          font-size: 4.5em;
-          left: 2.5rem; } }
-    .widget_recent_entries ul > li > a:after, .widget_rss ul > li > a:after {
-      content: "";
-      margin-bottom: .5em; }
-    .widget_recent_entries ul > li > a:hover:after, .widget_rss ul > li > a:hover:after {
-      width: 5em; }
-  .widget_recent_entries .post-date, .widget_recent_entries .rss-date, .widget_rss .post-date, .widget_rss .rss-date {
-    display: block; }
-    .widget_recent_entries .post-date:before, .widget_recent_entries .rss-date:before, .widget_rss .post-date:before, .widget_rss .rss-date:before {
-      content: "\f145";
-      display: inline-block;
-      font-family: 'Dashicons';
-      margin-right: 0.5em;
-      vertical-align: bottom; }
+      .widget_recent_entries ul > li > a:before, .widget_rss ul > li > a:before {
+        font-size: 4.5em;
+        left: 2.5rem; } }
+  .widget_recent_entries ul > li > a:after, .widget_rss ul > li > a:after {
+    content: "";
+    margin-bottom: .5em; }
+  .widget_recent_entries ul > li > a:hover:after, .widget_rss ul > li > a:hover:after {
+    width: 5em; }
+
+.widget_recent_entries .post-date, .widget_recent_entries .rss-date, .widget_rss .post-date, .widget_rss .rss-date {
+  display: block; }
+  .widget_recent_entries .post-date:before, .widget_recent_entries .rss-date:before, .widget_rss .post-date:before, .widget_rss .rss-date:before {
+    content: "\f145";
+    display: inline-block;
+    font-family: 'Dashicons';
+    margin-right: 0.5em;
+    vertical-align: bottom; }
 
 .widget_eu_cookie_law_widget * {
   position: initial; }

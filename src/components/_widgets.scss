@@ -22,9 +22,22 @@
 
 }
 
-.widget_recent_entries, .widget_rss {
+.widget_recent_entries {
+	/* RSS widget will have the first item. */
+	li:first-of-type {
+		display: none;
+	}
 
+	h1 {
+		display: none;
+	}
+}
+
+.widget_rss {
 	padding-top: 4em;
+}
+
+.widget_recent_entries, .widget_rss {
 
 	.widget-title {
 
