@@ -3,8 +3,8 @@ body.home #after-header-widgets {
 	align-items: center;
 	color: $white;
 	display: flex;
-	min-height: 92vh;
-	padding-bottom: $gutter_y * 2;
+	min-height: 50vh;
+	padding-bottom: $gutter_y * 5;
 	padding-top: $gutter_y * 12;
 	text-align: center;
 	width: 100%;
@@ -13,7 +13,7 @@ body.home #after-header-widgets {
 	&:before {
 
 		background-image: $hero;
-		background-position: center -30px;
+		background-position: center -120px;
 		background-size: cover;
 		content: "";
 		display: block;
@@ -33,7 +33,7 @@ body.home #after-header-widgets {
 
 	&:after {
 
-		content: "Image courtesy of Michael Glass";
+		content: $hero_credit;
 		position: absolute;
 		bottom: $gutter_y;
 		right: 0;
