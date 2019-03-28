@@ -1116,17 +1116,17 @@ body.admin-bar #tix {
     padding-left: 0;
     padding-right: 0; }
 
-.widget_recent_entries {
+.widget-area.front-page .widget_recent_entries {
   /* RSS widget will have the first item. */ }
-  .widget_recent_entries li:first-of-type {
+  .widget-area.front-page .widget_recent_entries li:first-of-type {
     display: none; }
-  .widget_recent_entries h1, .widget_recent_entries body.page:not(.home) .entry-header .entry-title, body.page:not(.home) .entry-header .widget_recent_entries .entry-title,
-  .widget_recent_entries body.archive .page-header .entry-title, body.archive .page-header .widget_recent_entries .entry-title,
-  .widget_recent_entries body.single-post .entry-header .entry-title, body.single-post .entry-header .widget_recent_entries .entry-title,
-  .widget_recent_entries body.single-wcb_speaker .entry-header .entry-title, body.single-wcb_speaker .entry-header .widget_recent_entries .entry-title,
-  .widget_recent_entries body.search .page-header .entry-title, body.search .page-header .widget_recent_entries .entry-title,
-  .widget_recent_entries body.error404 .entry-header .entry-title, body.error404 .entry-header .widget_recent_entries .entry-title, .widget_recent_entries body.archive .page-title, body.archive .widget_recent_entries .page-title, .widget_recent_entries body.blog #before-content-widgets:after, body.blog .widget_recent_entries #before-content-widgets:after,
-  .widget_recent_entries body.single:not(.single-post):not(.single-wcb_speaker) #before-content-widgets:after, body.single:not(.single-post):not(.single-wcb_speaker) .widget_recent_entries #before-content-widgets:after {
+  .widget-area.front-page .widget_recent_entries h1, .widget-area.front-page .widget_recent_entries body.page:not(.home) .entry-header .entry-title, body.page:not(.home) .entry-header .widget-area.front-page .widget_recent_entries .entry-title,
+  .widget-area.front-page .widget_recent_entries body.archive .page-header .entry-title, body.archive .page-header .widget-area.front-page .widget_recent_entries .entry-title,
+  .widget-area.front-page .widget_recent_entries body.single-post .entry-header .entry-title, body.single-post .entry-header .widget-area.front-page .widget_recent_entries .entry-title,
+  .widget-area.front-page .widget_recent_entries body.single-wcb_speaker .entry-header .entry-title, body.single-wcb_speaker .entry-header .widget-area.front-page .widget_recent_entries .entry-title,
+  .widget-area.front-page .widget_recent_entries body.search .page-header .entry-title, body.search .page-header .widget-area.front-page .widget_recent_entries .entry-title,
+  .widget-area.front-page .widget_recent_entries body.error404 .entry-header .entry-title, body.error404 .entry-header .widget-area.front-page .widget_recent_entries .entry-title, .widget-area.front-page .widget_recent_entries body.archive .page-title, body.archive .widget-area.front-page .widget_recent_entries .page-title, .widget-area.front-page .widget_recent_entries body.blog #before-content-widgets:after, body.blog .widget-area.front-page .widget_recent_entries #before-content-widgets:after,
+  .widget-area.front-page .widget_recent_entries body.single:not(.single-post):not(.single-wcb_speaker) #before-content-widgets:after, body.single:not(.single-post):not(.single-wcb_speaker) .widget-area.front-page .widget_recent_entries #before-content-widgets:after {
     display: none; }
 
 .widget_rss {
