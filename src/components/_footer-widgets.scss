@@ -52,67 +52,6 @@
 }
 
 
-
-
-/*
-*	Subscribe to newsletter
-*/
-#subscribe-email {
-
-	@extend .layout__item;
-	margin-bottom: 0;
-	margin-right: -5px;
-	padding-left: 0 !important;
-	vertical-align: top;
-
-	@include mq( $bp_lap ) {
-
-		width: 80% !important;
-
-	}
-
-	input {
-
-		width: 100% !important;
-
-	}
-
-}
-
-#subscribe-submit {
-
-	@extend .layout__item;
-	margin-bottom: 0;
-	padding-left: 0 !important;
-	vertical-align: top;
-	margin-bottom: 1em;
-
-	@include mq( $bp_lap ) {
-
-		width: 20% !important;
-
-	}
-
-	input[type^="submit"] {
-
-		@extend .button;
-		box-shadow: none !important;
-		border-radius: 0 !important;
-		padding: .95em  1.5em;
-		width: 100%;
-
-		@include mq( $bp_lap ) {
-
-			width: auto;
-
-		}
-
-	}
-
-}
-
-
-
 /*
 *	Footer menu widget
 */

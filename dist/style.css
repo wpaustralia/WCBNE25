@@ -231,7 +231,7 @@ body:not(.single-post) #comments {
       -o-transition: width .2s ease;
       transition: width .2s ease; }
 
-.button, #subscribe-submit input[type^="submit"], input[type=submit], button {
+.button, input[type=submit], button {
   padding: 1rem 3rem;
   background: #7c54bf;
   border: 2px solid #7c54bf;
@@ -243,9 +243,9 @@ body:not(.single-post) #comments {
   text-shadow: none;
   -webkit-box-shadow: none;
           box-shadow: none; }
-  .button:visited, #subscribe-submit input:visited[type^="submit"], input:visited[type=submit], button:visited {
+  .button:visited, input:visited[type=submit], button:visited {
     color: #fff; }
-  .button:hover, #subscribe-submit input:hover[type^="submit"], input:hover[type=submit], .button:active, #subscribe-submit input:active[type^="submit"], input:active[type=submit], .button:focus, #subscribe-submit input:focus[type^="submit"], input:focus[type=submit], button:hover, button:active, button:focus {
+  .button:hover, input:hover[type=submit], .button:active, input:active[type=submit], .button:focus, input:focus[type=submit], button:hover, button:active, button:focus {
     color: #7c54bf;
     background: #fff; }
   .button--ghost, button--ghost {
@@ -311,39 +311,6 @@ body:not(.single-post) #comments {
       padding-left: 8.333%; } }
 
 /*
-*	Subscribe to newsletter
-*/
-#subscribe-email {
-  margin-bottom: 0;
-  margin-right: -5px;
-  padding-left: 0 !important;
-  vertical-align: top; }
-  @media (min-width: 617px) {
-    #subscribe-email {
-      width: 80% !important; } }
-  #subscribe-email input {
-    width: 100% !important; }
-
-#subscribe-submit {
-  margin-bottom: 0;
-  padding-left: 0 !important;
-  vertical-align: top;
-  margin-bottom: 1em; }
-  @media (min-width: 617px) {
-    #subscribe-submit {
-      width: 20% !important; } }
-  #subscribe-submit input[type^="submit"] {
-    -webkit-box-shadow: none !important;
-            box-shadow: none !important;
-    -webkit-border-radius: 0 !important;
-            border-radius: 0 !important;
-    padding: .95em  1.5em;
-    width: 100%; }
-    @media (min-width: 617px) {
-      #subscribe-submit input[type^="submit"] {
-        width: auto; } }
-
-/*
 *	Footer menu widget
 */
 [id^="menu-site-map"] {
@@ -375,7 +342,7 @@ body:not(.single-post) #comments {
     margin: 0 50px 50px 0;
     float: left; } }
 
-#footer-widget-3 .button, #footer-widget-3 #subscribe-submit input[type^="submit"], #subscribe-submit #footer-widget-3 input[type^="submit"], #footer-widget-3 input[type=submit], #footer-widget-4 .button, #footer-widget-4 #subscribe-submit input[type^="submit"], #subscribe-submit #footer-widget-4 input[type^="submit"], #footer-widget-4 input[type=submit] {
+#footer-widget-3 .button, #footer-widget-3 input[type=submit], #footer-widget-4 .button, #footer-widget-4 input[type=submit] {
   padding: 0.5rem 1.5rem; }
 
 @media (min-width: 992px) {
@@ -618,7 +585,7 @@ body.home #after-header-widgets {
     font-size: 30px;
     font-weight: 600;
     margin-bottom: 1em; }
-  body.home #after-header-widgets .button, body.home #after-header-widgets #subscribe-submit input[type^="submit"], #subscribe-submit body.home #after-header-widgets input[type^="submit"], body.home #after-header-widgets input[type=submit] {
+  body.home #after-header-widgets .button, body.home #after-header-widgets input[type=submit] {
     margin: 5px; }
   body.home #after-header-widgets:after {
     content: "";
@@ -717,7 +684,7 @@ body.single-wcb_sponsor #before-content-widgets:after {
   list-style: none;
   margin-left: -3rem;
   padding-left: 0; }
-  .layout__item, #subscribe-email, #subscribe-submit {
+  .layout__item {
     display: inline-block;
     margin-left: 0;
     padding-left: 3rem;
