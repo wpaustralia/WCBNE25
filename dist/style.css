@@ -240,7 +240,9 @@ body:not(.single-post) #comments {
   color: #fff;
   text-decoration: none;
   font-weight: bold;
-  text-shadow: none; }
+  text-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
   .button:visited, #subscribe-submit input:visited[type^="submit"], input:visited[type=submit], button:visited {
     color: #fff; }
   .button:hover, #subscribe-submit input:hover[type^="submit"], input:hover[type=submit], .button:active, #subscribe-submit input:active[type^="submit"], input:active[type=submit], .button:focus, #subscribe-submit input:focus[type^="submit"], input:focus[type=submit], button:hover, button:active, button:focus {
