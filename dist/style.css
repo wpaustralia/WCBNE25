@@ -396,31 +396,21 @@ body:not(.single-post) #comments {
 input, #s {
   padding: .75em 1em; }
 
-body .contact-form input[type=text],
-body .contact-form input[type=url],
-body .contact-form input[type=email],
-body .contact-form textarea,
-body .contact-form select,
-.tix_tickets_table input[type=text],
-.tix_tickets_table input[type=url],
-.tix_tickets_table input[type=email],
-.tix_tickets_table textarea,
-.tix_tickets_table select {
+input[type=text],
+input[type=url],
+input[type=email],
+textarea,
+select {
   padding: .75em 1em;
   width: 100%;
   -webkit-border-radius: 0;
           border-radius: 0; }
   @media (min-width: 617px) {
-    body .contact-form input[type=text],
-    body .contact-form input[type=url],
-    body .contact-form input[type=email],
-    body .contact-form textarea,
-    body .contact-form select,
-    .tix_tickets_table input[type=text],
-    .tix_tickets_table input[type=url],
-    .tix_tickets_table input[type=email],
-    .tix_tickets_table textarea,
-    .tix_tickets_table select {
+    input[type=text],
+    input[type=url],
+    input[type=email],
+    textarea,
+    select {
       width: 80%; } }
 
 .tix_tickets_table input[type=text],
@@ -437,10 +427,7 @@ input[type=submit] {
           box-shadow: none;
   text-shadow: none; }
 
-input[type=checkbox], input[type=radio],
-body .contact-form input[type=radio],
-body .contact-form input[type=checkbox],
-body .contact-form input[type=radio] {
+input[type=checkbox], input[type=radio] {
   border: 2px solid #4a4a4a;
   -webkit-appearance: none !important;
   -webkit-border-radius: 2px;
@@ -450,9 +437,7 @@ body .contact-form input[type=radio] {
   padding: 6px;
   position: relative;
   vertical-align: baseline; }
-  input[type=checkbox]:checked:before, input[type=radio]:checked:before,
-  body .contact-form input[type=checkbox]:checked:before,
-  body .contact-form input[type=radio]:checked:before {
+  input[type=checkbox]:checked:before, input[type=radio]:checked:before {
     color: #7c54bf;
     content: "\f147";
     font-family: Dashicons;
@@ -461,8 +446,7 @@ body .contact-form input[type=radio] {
     position: absolute;
     top: -75%; }
 
-input[type=radio],
-body .contact-form input[type=radio] {
+input[type=radio] {
   -webkit-border-radius: 50%;
           border-radius: 50%; }
 
