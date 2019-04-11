@@ -231,7 +231,7 @@ body:not(.single-post) #comments {
       -o-transition: width .2s ease;
       transition: width .2s ease; }
 
-.button, #subscribe-submit input[type^="submit"], input[type=submit] {
+.button, #subscribe-submit input[type^="submit"], input[type=submit], button {
   padding: 1rem 3rem;
   background: #7c54bf;
   border: 2px solid #7c54bf;
@@ -241,24 +241,24 @@ body:not(.single-post) #comments {
   text-decoration: none;
   font-weight: bold;
   text-shadow: none; }
-  .button:visited, #subscribe-submit input:visited[type^="submit"], input:visited[type=submit] {
+  .button:visited, #subscribe-submit input:visited[type^="submit"], input:visited[type=submit], button:visited {
     color: #fff; }
-  .button:hover, #subscribe-submit input:hover[type^="submit"], input:hover[type=submit], .button:active, #subscribe-submit input:active[type^="submit"], input:active[type=submit], .button:focus, #subscribe-submit input:focus[type^="submit"], input:focus[type=submit] {
+  .button:hover, #subscribe-submit input:hover[type^="submit"], input:hover[type=submit], .button:active, #subscribe-submit input:active[type^="submit"], input:active[type=submit], .button:focus, #subscribe-submit input:focus[type^="submit"], input:focus[type=submit], button:hover, button:active, button:focus {
     color: #7c54bf;
     background: #fff; }
-  .button--ghost {
+  .button--ghost, button--ghost {
     background: transparent; }
-    .button--ghost:hover, .button--ghost:active, .button--ghost:focus {
+    .button--ghost:hover, .button--ghost:active, .button--ghost:focus, button--ghost:hover, button--ghost:active, button--ghost:focus {
       background-color: #7c54bf;
       color: #fff; }
-  .button--white {
+  .button--white, button--white {
     border-color: #fff;
     color: #fff;
     background-color: transparent; }
-    .button--white:hover, .button--white:active, .button--white:focus {
+    .button--white:hover, .button--white:active, .button--white:focus, button--white:hover, button--white:active, button--white:focus {
       color: #7c54bf !important;
       background-color: #fff; }
-    .button--white:visited {
+    .button--white:visited, button--white:visited {
       color: #fff; }
 
 @media (min-width: 992px) {
