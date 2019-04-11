@@ -13,6 +13,10 @@
 
 	}
 
+	a.button:hover {
+		/* .band--secondary overrides this. */
+		color: $green !important;
+	}
 }
 
 

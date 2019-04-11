@@ -297,6 +297,9 @@ body:not(.single-post) #comments {
   background-position: bottom center;
   background-repeat: no-repeat;
   padding-bottom: 0 !important; }
+  .site-footer a.button:hover {
+    /* .band--secondary overrides this. */
+    color: #7c54bf !important; }
 
 .site-info {
   margin-top: 4em; }
