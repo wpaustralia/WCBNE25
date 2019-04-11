@@ -1077,9 +1077,10 @@ body.admin-bar #tix {
     padding-right: 0; }
 
 .widget-area.front-page .widget_recent_entries {
-  /* RSS widget will have the first item. */ }
-  .widget-area.front-page .widget_recent_entries li:first-of-type {
-    display: none; }
+  /* RSS widget will have the first item.
+	li:first-of-type {
+		display: none;
+	}*/ }
   .widget-area.front-page .widget_recent_entries h1, .widget-area.front-page .widget_recent_entries body.page:not(.home) .entry-header .entry-title, body.page:not(.home) .entry-header .widget-area.front-page .widget_recent_entries .entry-title,
   .widget-area.front-page .widget_recent_entries body.archive .page-header .entry-title, body.archive .page-header .widget-area.front-page .widget_recent_entries .entry-title,
   .widget-area.front-page .widget_recent_entries body.single-post .entry-header .entry-title, body.single-post .entry-header .widget-area.front-page .widget_recent_entries .entry-title,
