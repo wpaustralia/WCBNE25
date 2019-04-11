@@ -281,7 +281,7 @@ body:not(.single-post) #comments {
     @media (min-width: 992px) {
       .site-footer .site-info {
         padding: 3rem; } }
-    .site-footer .site-info a {
+    .site-footer .site-info a:not(.button):not(input[type=submit]) {
       color: #fff;
       display: inline-block;
       font-size: 1em;
@@ -289,7 +289,7 @@ body:not(.single-post) #comments {
       margin: 1rem 1.5rem;
       text-decoration: none;
       text-transform: uppercase; }
-      .site-footer .site-info a:hover, .site-footer .site-info a:active, .site-footer .site-info afocus {
+      .site-footer .site-info a:not(.button):not(input[type=submit]):hover, .site-footer .site-info a:not(.button):not(input[type=submit]):active, .site-footer .site-info a:not(.button):not(input[type=submit])focus {
         color: #7c54bf; }
 
 .site-footer {
