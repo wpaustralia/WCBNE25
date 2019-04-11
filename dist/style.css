@@ -413,6 +413,10 @@ select {
     select {
       width: 80%; } }
 
+select {
+  background-color: #fff;
+  height: 2.5em; }
+
 .tix_tickets_table input[type=text],
 .tix_tickets_table input[type=url],
 .tix_tickets_table input[type=email],
