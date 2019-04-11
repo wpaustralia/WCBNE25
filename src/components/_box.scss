@@ -25,7 +25,7 @@
 	&:hover,
 	&:active {
 
-		color: $green;
+		color: $maincolor;
 
 
 		.box__link:after {
@@ -93,12 +93,12 @@
 
 		&__link {
 
-			color: $green;
+			color: $maincolor;
 			display: inline-block;
 
 			&:after {
 
-				background-color: $green;
+				background-color: $maincolor;
 				content: "";
 				display: block;
 				height: 2px;

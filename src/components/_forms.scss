@@ -64,7 +64,7 @@ input[type=checkbox] {
 
 	&:checked:before {
 
-		color: $green;
+		color: $maincolor;
 		content: "\f147";
 	    font-family: Dashicons;
 	    font-size: 30px;
