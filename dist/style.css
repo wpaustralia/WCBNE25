@@ -1174,7 +1174,7 @@ body.admin-bar #tix {
 
 @media (max-width: 617px) {
   .widget_rss .rsswidget {
-    max-width: auto; }
+    max-width: inherit; }
   .widget_rss .rssSummary {
     display: none; } }
 
