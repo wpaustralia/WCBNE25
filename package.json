@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "repository": "https://github.com/dd32/WCBNE19",
-  "scripts" : {
+  "scripts": {
     "grunt": "./node_modules/.bin/grunt"
   },
   "devDependencies": {

@@ -1172,16 +1172,12 @@ body.admin-bar #tix {
     margin-right: 0.5em;
     vertical-align: bottom; }
 
-/*
-@include mqmax( $bp_lap ) {
-	.widget_recent_entries li:first-of-type {
-		display: inherit;
-	}
+@media (max-width: 617px) {
+  .widget_rss .rsswidget {
+    max-width: auto; }
+  .widget_rss .rssSummary {
+    display: none; } }
 
-	.widget_rss {
-		display: none;
-	}
-}*/
 .widget_eu_cookie_law_widget * {
   position: initial; }
 
