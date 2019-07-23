@@ -22,16 +22,16 @@
 
 }
 
-.widget-area.front-page .widget_recent_entries {
-	/* RSS widget will have the first item.
+/*.widget-area.front-page .widget_recent_entries {
+	 RSS widget will have the first item.
 	li:first-of-type {
 		display: none;
-	}*/
+	}
 
 	h1 {
 		display: none;
 	}
-}
+}*/
 
 .widget_rss {
 	padding-top: 4em;
@@ -62,7 +62,8 @@
 	}
 }
 
-.widget_recent_entries, .widget_rss {
+/*.widget_recent_entries, */
+.widget_rss {
 
 	.widget-title {
 
@@ -191,6 +192,7 @@
 
 }
 
+/*
 @include mqmax( $bp_lap ) {
 	.widget_recent_entries li:first-of-type {
 		display: inherit;
@@ -199,7 +201,7 @@
 	.widget_rss {
 		display: none;
 	}
-}
+}*/
 
 .widget_eu_cookie_law_widget {
 	* {
