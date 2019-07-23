@@ -192,16 +192,17 @@
 
 }
 
-/*
 @include mqmax( $bp_lap ) {
-	.widget_recent_entries li:first-of-type {
-		display: inherit;
-	}
 
 	.widget_rss {
-		display: none;
+		.rsswidget {
+			max-width: auto;
+		}
+		.rssSummary {
+			display: none;
+		}
 	}
-}*/
+}
 
 .widget_eu_cookie_law_widget {
 	* {
