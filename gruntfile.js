@@ -52,5 +52,6 @@ module.exports = function(grunt){
 	grunt.loadNpmTasks( 'grunt-sass' );
 	grunt.loadNpmTasks( 'grunt-postcss' );
 	grunt.loadNpmTasks( 'grunt-australian-stylesheets' );
-	grunt.registerTask( 'default', [ 'sass', 'postcss', 'australianStylesheets', 'watch' ] );
+	grunt.registerTask( 'default', [ 'sass', 'postcss', 'australianStylesheets' ] );
+	grunt.registerTask( 'watch', [ 'watch' ] );
 };

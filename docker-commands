@@ -1,0 +1,2 @@
+docker run --rm -ti -v /www:/www -v /tmp/npm:/tmp/npm --user $(id -u):82 -e "HOME=/www" --workdir `pwd` node:current-alpine sh -c 'npm install'
+docker run --rm -ti -v /www:/www -v /tmp/npm:/tmp/npm --user $(id -u):82 -e "HOME=/www" --workdir `pwd` node:current-alpine sh -c 'npm run grunt build --dev'
