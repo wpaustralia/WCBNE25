@@ -293,7 +293,7 @@ body:not(.single-post) #comments {
         color: #7c54bf; }
 
 .site-footer {
-  background-image: url("https://i0.wp.com/raw.githubusercontent.com/dd32/WCBNE19/master/src/img/brisbane-city.png");
+  background-image: url("https://i0.wp.com/raw.githubusercontent.com/wpaustralia/WCBNE25/master/src/img/brisbane-city.png");
   background-position: bottom center;
   background-repeat: no-repeat;
   padding-bottom: 0 !important; }
@@ -789,7 +789,7 @@ body.single-wcb_sponsor #before-content-widgets:after {
     #masthead .site-title a {
       display: none; }
     #masthead .site-title a {
-      background-image: url("https://i0.wp.com/raw.githubusercontent.com/dd32/WCBNE19/master/src/img/masthead-logo.png");
+      background-image: url("https://i0.wp.com/raw.githubusercontent.com/wpaustralia/WCBNE25/master/src/img/masthead-logo.png");
       background-position: left center;
       -webkit-background-size: contain;
               background-size: contain;
@@ -916,7 +916,7 @@ body.search article {
     border-color: #CD7F32; }
 
 .sprite {
-  background-image: url("https://i0.wp.com/raw.githubusercontent.com/dd32/WCBNE19/master/src/img/sprite.png");
+  background-image: url("https://i0.wp.com/raw.githubusercontent.com/wpaustralia/WCBNE25/master/src/img/sprite.png");
   background-repeat: no-repeat;
   display: inline-block;
   height: 100px;

@@ -2,7 +2,7 @@
   "name": "wcbne19",
   "version": "1.0.0",
   "description": "",
-  "repository": "https://github.com/dd32/WCBNE19",
+  "repository": "https://github.com/wpaustralia/WCBNE25",
   "scripts": {
     "grunt": "./node_modules/.bin/grunt"
   },

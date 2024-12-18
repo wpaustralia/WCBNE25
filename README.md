@@ -1,6 +1,6 @@
-# WordCamp Brisbane 2019
+# WordCamp Brisbane 2025
 
-This is the stylesheet for the website for [WordCamp Brisbane 2019](https://2019.brisbane.wordcamp.org/).
+This is the stylesheet for the website for [WordCamp Brisbane 2025](https://brisbane.wordcamp.org/2025/).
 
 ## Contributing
 
